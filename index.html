@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Commerce Platform</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="main">
+        <h1>E-Commerce Platform</h1>
+
+        <!-- Search Bar -->
+        <input type="text" id="search" placeholder="Search Products..." oninput="searchProducts()" />
+      
+        <div class="container">
+          <div class="content">
+            <h1>Find The Best Fashion Style For You</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ullamcorper congue eros. Eget tristique ipsum eleifend ut.</p>
+            <a href="#" class="btn">Shop Now</a>
+          </div>
+          <div class="image-container">
+            <img src="https://www.gadgetskool.com/wp-content/uploads/2020/04/Best-Fashion-e-commerce-Websites-India.jpg" alt="Fashion Model" class="fashion-image">
+          </div>
+        </div>
+    </div>
+ 
+
+    <!-- Product List -->
+  <div id="product-list"></div>
+
+  <!-- Cart Section -->
+    <h2>Cart</h2>
+    <div id="cart-items"></div>
+    <p id="total"></p>
+     <!-- Place Order Button -->
+    <button id="place-order" onclick="placeOrder()">Place Order</button>
+
+  
+  
+ 
+
+  <script src="./app.js"></script>
+</body>
+</html>
